@@ -1,10 +1,9 @@
 {
   "dependencies": {
-    "discord-anti-spam": "^2.5.1"
+    "discord-anti-spam": "^2.5.1",
     "npm": "^7.19.0",
     "scripts": "^0.1.0",
     "start": "^5.1.0"
    
   }
 }
-
