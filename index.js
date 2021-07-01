@@ -234,7 +234,7 @@ client.on('message', message => {
   }); 
 
   // Log our bot in using the token from https://discord.com/developers/applications
-  client.login('ODAwOTIzODg2MjMzMDU5Mzgw.YAZMfg.9Afle1P6Ocptd9DxWX2lZfDNwfM');
+  client.login(process.env.TOKEN);
   ////////////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -266,7 +266,7 @@ client.on('ready', () => console.log(`Logged in as ${client.user.tag}.`));
 
 client.on('message', (message) => antiSpam.message(message)); 
 
-client.login('ODAwOTIzODg2MjMzMDU5Mzgw.YAZMfg.9Afle1P6Ocptd9DxWX2lZfDNwfM');
+client.login(process.env.TOKEN);
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   })
